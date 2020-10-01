@@ -12,7 +12,7 @@
 // const itensMenu = document.querySelectorAll('.menu a');
 //
 // itensMenu.forEach((item) =>{
-//     item.classList.add('ativo');
+    // //     item.classList.add('ativo');
 // });
 
 
@@ -42,8 +42,8 @@
 // console.log('A distância da primeira imagem ao topo é: ' + imgTop + 'px');
 
 
-//::::::::::::::::::::::06 - Retornei a soma da largura de todas as img
-// function somaImagens(){
+// //::::::::::::::::::::::06 - Retornei a soma da largura de todas as img
+// // function somaImagens(){
 //     const imagens = document.querySelectorAll('img');
 //     let soma = 0;
 //     imagens.forEach((imagem)=>{
@@ -62,6 +62,16 @@
 //     console.log(event.target);
 // }
 // img.addEventListener('click', callback);
+
+//::::::::::::::::::::::::::Selecionei o primeiro h2 dentro de .passaros-descricao
+// const passarosH2 = document.querySelector('.passaros-descricao h2');
+// console.log(passarosH2);
+
+//:::::::::::::::::::::::::::Selecionei o ultimo paragrafo
+// const todosP = document.querySelectorAll('p');
+// console.log(todosP[todosP.length - 1]);
+
+
 
 function initTabNav(){
     const tabMenu = document.querySelectorAll('.js-tabmenu li');
